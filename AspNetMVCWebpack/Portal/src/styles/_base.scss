@@ -1,0 +1,10 @@
+@import "./abstracts/variables";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $primary-color;
+    padding: 3rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,17 @@
+@import "./styles/normalize";
+@import "./styles/base";
+
+p {
+    border: 2px solid red;
+}
+
+.i-user {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    background-image: url('./assets/img/user.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    display: inline-block;
+}
