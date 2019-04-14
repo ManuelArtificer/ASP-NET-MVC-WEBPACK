@@ -74,10 +74,11 @@ module.exports = merge(commonConfig, {
                         options: {
                             plugins: () => [
                                 require("autoprefixer")
-                            ]
+                            ],
+                            sourceMap: true
                         }
                     },
-                    { loader: "sass-loader" }
+                    { loader: "sass-loader", options: { sourceMap: true } }
                 ]
             }
         ]
